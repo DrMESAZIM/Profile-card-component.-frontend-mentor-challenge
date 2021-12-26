@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      font-size: 18px;
+      color: blue;
+    }
+  .main{
+    background-image: url(images/bg-pattern-top.svg);
+    background-color: lightblue;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    background-color: white;
+    text-align: center;
+    max-width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .top-container{
+    background-image: url(images/bg-pattern-card.svg);
+    height: 150px;
+    width: 350px;
+  }
+  .image-dev{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -50px auto -30px auto;
+
+  }
+  .image-dev img{
+    display: block;
+    height: auto;
+    width: 100px;
+  }
+  .inform{
+    height: 250px;
+    line-height: 1.8rem;
+    margin-top: 54px;
+    margin-bottom: -75px;
+    color: black;
+  }
+
+  .feedback{
+    border-top: 0.5px solid black;
+    padding-top: 22px;
+    padding-right: 40px;
+    display: flex;
+    margin-top: 23px;
+    align-items: center;
+    padding-left: 40px;
+    justify-content: space-between;
+    flex-direction: row;
+
+  }
+
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body >
+
+  <section class="main">
+    <div class="container">
+
+      <div class="top-container"></div>
+      <div class="image-dev"><img src="images/image-victor.jpg" alt=""></div>
+      <div class="inform">
+
+           <h2>Irvine Mesa 26</h2>
+           <h2>Harare, Zimbabwe</h2>
+        
+
+           <div class="feedback">
+           
+             <h5>80K followers</h5>
+             <h5>1M likes</h5>
+             <h5>5K photos</h5>
+
+
+
+           </div>
+
+
+
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+    
+
+
+
+  </section>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Irvine Mesa</a>.
+  </div>
+</body>
+</html>
